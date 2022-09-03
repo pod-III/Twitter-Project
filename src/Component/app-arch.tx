@@ -1,0 +1,23 @@
+The body will be devided into three part, using grid in cs
+Each part will be represented with three major component from left to right.
+
+from left to right
+Component one (a)(fixed),
+a.1 twitter logo 
+a.2 navbar
+a.3 tweet button 
+a.4 profile selection
+
+Component two (b), 
+b.1 home bar (fixed)
+b.2 insert tweet 
+b.3 tweets TL (infinite scroll)
+
+
+Component three (c)
+c.1 search bar (fixed)
+c.2 trending 
+c.3 who to follow
+c.4 links
+c.5 copyright 
+

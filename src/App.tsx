@@ -11,10 +11,13 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import { ComponentA } from "./Component/a/a_parent"
+import { ComponentB } from "./Component/b/b_parent"
+import { ComponentC } from "./Component/c/c_parent"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
+    {/* <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
@@ -33,6 +36,9 @@ export const App = () => (
           </Link>
         </VStack>
       </Grid>
-    </Box>
+    </Box> */}
+    <ComponentA />
+    <ComponentB />
+    <ComponentC />
   </ChakraProvider>
 )
